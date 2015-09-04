@@ -30,15 +30,19 @@
     skillNode = $('.js-skills-chart');
 
     skillz = {
-        "matlab": {
-            "name": "MATLAB",
-            "level": 5
-        },
-        "python": {
+        "MATLAB": {
             "name": "Python",
             "level": 5
         },
-        "c++": {
+        "Signal Processing": {
+            "name": "Signal Processing",
+            "level": 5
+        },
+        "python": {
+            "name": "MATLAB",
+            "level": 4
+        },
+        "C++": {
             "name": "C++",
             "level": 3
         },    
@@ -50,24 +54,28 @@
             "name": "HTML/CSS",
             "level": 2
         },
-        "sql": {
+        "SQL": {
             "name": "SQL",
-            "level": 2
-        },
-        "verilog": {
-            "name": "Verilog",
             "level": 1
         },
+        "Verilog": {
+            "name": "Scikit-Learn",
+            "level": 4
+        },
         "javascript": {
-            "name": "Javascript",
-            "level": 2
+            "name": "Pandas",
+            "level": 5
         },
         "jQuery": {
             "name": "jQuery",
             "level": 2,
         },
-        "julia": {
-            "name": "Julia",
+        "Julia": {
+            "name": "PySide/PyQt",
+            "level": 2,
+        },
+        "R": {
+            "name": "R",
             "level": 1,
         },
         
